@@ -1,22 +1,22 @@
 # Intelligent Document Assistant (RAG)
 
-## 🚀 Overview
+## Overview
 
 A Retrieval-Augmented Generation (RAG) system that enables semantic search and question answering over a collection of documents.
 
-## 🧠 Problem
+## Problem
 
 Traditional keyword search fails to retrieve relevant information from unstructured documents, leading to poor answer quality.
 
-## ⚙️ Solution
+## Solution
 
 This project uses embeddings and vector search to retrieve relevant context and generate accurate responses using an LLM.
 
-## 🧰 Tech Stack
+## Tech Stack
 
 Python, LangChain, OpenAI, PostgreSQL (pgvector), FastAPI, Docker
 
-## 🔄 Workflow
+## Workflow
 
 1. Ingest documents
 2. Split into chunks
@@ -25,7 +25,7 @@ Python, LangChain, OpenAI, PostgreSQL (pgvector), FastAPI, Docker
 5. Retrieve relevant chunks
 6. Generate response using LLM
 
-## 📊 Results / Observations
+## Results / Observations
 
 * Improved retrieval relevance compared to keyword search
 * Reduced hallucination using grounded context
